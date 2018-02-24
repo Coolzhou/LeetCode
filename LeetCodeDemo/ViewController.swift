@@ -12,7 +12,8 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var tabeView: UITableView!
     
-    var dataArray = Array<String>.init(arrayLiteral: "01_wo Sum","03_Longest Substring Without Repeating Characters")
+    var dataArray = Array<String>.init(arrayLiteral: "01_wo Sum","03_Longest Substring Without Repeating Characters",
+                                       "04_Median of Two Sorted Arrays")
     
     
     override func viewDidLoad() {
@@ -39,6 +40,10 @@ class ViewController: UIViewController {
                 let leetCode_3 = LeetCode_3.init()
                 let nums = leetCode_3.lengthOfLongestSubstring("pwwkew")
                 print("nums = \(nums)")
+        case 2:
+            let leetCode_4 = LeetCode_04.init()
+            let nums = leetCode_4.findMedianSortedArrays([1,6,3], [4,5,8])
+            print("nums = \(nums)")
             
         default:
             print("nil")

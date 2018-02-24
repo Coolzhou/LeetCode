@@ -17,6 +17,7 @@
 		187019CA203FEF1500CE1135 /* LeetCodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187019C9203FEF1500CE1135 /* LeetCodeCell.swift */; };
 		187019D0203FF78D00CE1135 /* TwoSum_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187019CF203FF78D00CE1135 /* TwoSum_1.swift */; };
 		187019D2204000D300CE1135 /* LeetCode_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187019D1204000D300CE1135 /* LeetCode_3.swift */; };
+		18A041B72041070500356956 /* LeetCode_04.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A041B62041070500356956 /* LeetCode_04.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		187019C9203FEF1500CE1135 /* LeetCodeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeCell.swift; sourceTree = "<group>"; };
 		187019CF203FF78D00CE1135 /* TwoSum_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum_1.swift; sourceTree = "<group>"; };
 		187019D1204000D300CE1135 /* LeetCode_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode_3.swift; sourceTree = "<group>"; };
+		18A041B62041070500356956 /* LeetCode_04.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode_04.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 			children = (
 				187019CF203FF78D00CE1135 /* TwoSum_1.swift */,
 				187019D1204000D300CE1135 /* LeetCode_3.swift */,
+				18A041B62041070500356956 /* LeetCode_04.swift */,
 			);
 			path = AllCode;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A041B72041070500356956 /* LeetCode_04.swift in Sources */,
 				187019D0203FF78D00CE1135 /* TwoSum_1.swift in Sources */,
 				187019CA203FEF1500CE1135 /* LeetCodeCell.swift in Sources */,
 				187019D2204000D300CE1135 /* LeetCode_3.swift in Sources */,
