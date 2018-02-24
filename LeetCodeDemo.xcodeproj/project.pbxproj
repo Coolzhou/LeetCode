@@ -14,6 +14,9 @@
 		187019A6203FEAE300CE1135 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187019A4203FEAE300CE1135 /* LaunchScreen.storyboard */; };
 		187019B1203FEAE300CE1135 /* LeetCodeDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187019B0203FEAE300CE1135 /* LeetCodeDemoTests.swift */; };
 		187019BC203FEAE300CE1135 /* LeetCodeDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187019BB203FEAE300CE1135 /* LeetCodeDemoUITests.swift */; };
+		187019CA203FEF1500CE1135 /* LeetCodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187019C9203FEF1500CE1135 /* LeetCodeCell.swift */; };
+		187019D0203FF78D00CE1135 /* TwoSum_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187019CF203FF78D00CE1135 /* TwoSum_1.swift */; };
+		187019D2204000D300CE1135 /* LeetCode_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187019D1204000D300CE1135 /* LeetCode_3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		187019B7203FEAE300CE1135 /* LeetCodeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetCodeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		187019BB203FEAE300CE1135 /* LeetCodeDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeDemoUITests.swift; sourceTree = "<group>"; };
 		187019BD203FEAE300CE1135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187019C9203FEF1500CE1135 /* LeetCodeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeCell.swift; sourceTree = "<group>"; };
+		187019CF203FF78D00CE1135 /* TwoSum_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum_1.swift; sourceTree = "<group>"; };
+		187019D1204000D300CE1135 /* LeetCode_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode_3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,8 @@
 			children = (
 				1870199B203FEAE300CE1135 /* AppDelegate.swift */,
 				1870199D203FEAE300CE1135 /* ViewController.swift */,
+				187019C9203FEF1500CE1135 /* LeetCodeCell.swift */,
+				187019CE203FF76C00CE1135 /* AllCode */,
 				1870199F203FEAE300CE1135 /* Main.storyboard */,
 				187019A2203FEAE300CE1135 /* Assets.xcassets */,
 				187019A4203FEAE300CE1135 /* LaunchScreen.storyboard */,
@@ -123,6 +131,15 @@
 				187019BD203FEAE300CE1135 /* Info.plist */,
 			);
 			path = LeetCodeDemoUITests;
+			sourceTree = "<group>";
+		};
+		187019CE203FF76C00CE1135 /* AllCode */ = {
+			isa = PBXGroup;
+			children = (
+				187019CF203FF78D00CE1135 /* TwoSum_1.swift */,
+				187019D1204000D300CE1135 /* LeetCode_3.swift */,
+			);
+			path = AllCode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +276,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				187019D0203FF78D00CE1135 /* TwoSum_1.swift in Sources */,
+				187019CA203FEF1500CE1135 /* LeetCodeCell.swift in Sources */,
+				187019D2204000D300CE1135 /* LeetCode_3.swift in Sources */,
 				1870199E203FEAE300CE1135 /* ViewController.swift in Sources */,
 				1870199C203FEAE300CE1135 /* AppDelegate.swift in Sources */,
 			);
