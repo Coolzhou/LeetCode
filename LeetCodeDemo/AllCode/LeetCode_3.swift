@@ -30,45 +30,31 @@ class LeetCode_3: NSObject {
         guard s.count != 0  else {
             return 0
         }
-        
         var set = Set<String>()
         var maxLen = 0
         var startIndex = 0
-        
+
         for i in 0 ..< s.count {
             let char = s.index(s.startIndex, offsetBy: i)
             let current = s[char]
             let currentStr = String(current)
-            
             if set.contains(currentStr){
-                
                 maxLen = max(maxLen, i - startIndex)
-                print("maxLen = \(maxLen)")
-                
-                let startChar = s.index(s.startIndex, offsetBy: startIndex)
-                
-                
-                print("baohan = \(current)  --- startChar = \(s[startChar])")
-//                while s[startChar] != current {
-////                    let startString = String(s[startChar])
-////                    set.remove(startString)
-//                    startIndex += 1
-//                }
+                while s[s.index(s.startIndex, offsetBy: startIndex)] != current {
+                    print("s =\(s) set =\(set) current = \(current)  --- startChar = \(s[s.index(s.startIndex, offsetBy: startIndex)])")
+                    let startString = String(s[s.index(s.startIndex, offsetBy: startIndex)])
+                    set.remove(startString)
+                    startIndex += 1
+                }
                 startIndex += 1
-                
             }else{
                 print("bubaohan =\(currentStr)")
                 set.insert(currentStr)
             }
         }
-//        Given "abcabcbb", the answer is "abc", which the length is 3.
         print("startIndex =\(startIndex)")
         maxLen = max(maxLen, s.count - startIndex)
-        
         return maxLen
-        
-//        return 3
-        
     }
 
 }

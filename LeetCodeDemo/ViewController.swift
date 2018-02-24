@@ -37,7 +37,7 @@ class ViewController: UIViewController {
             
         case 1:
                 let leetCode_3 = LeetCode_3.init()
-                let nums = leetCode_3.lengthOfLongestSubstring("abcabcbb")
+                let nums = leetCode_3.lengthOfLongestSubstring("pwwkew")
                 print("nums = \(nums)")
             
         default:
