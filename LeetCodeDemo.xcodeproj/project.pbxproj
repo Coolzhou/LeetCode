@@ -18,6 +18,8 @@
 		187019D0203FF78D00CE1135 /* TwoSum_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187019CF203FF78D00CE1135 /* TwoSum_1.swift */; };
 		187019D2204000D300CE1135 /* LeetCode_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187019D1204000D300CE1135 /* LeetCode_3.swift */; };
 		18A041B72041070500356956 /* LeetCode_04.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A041B62041070500356956 /* LeetCode_04.swift */; };
+		18ED960E205120C30007F079 /* AddStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ED960D205120C30007F079 /* AddStrings.swift */; };
+		18ED96102051343F0007F079 /* CountAndSay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ED960F2051343F0007F079 /* CountAndSay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		187019CF203FF78D00CE1135 /* TwoSum_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum_1.swift; sourceTree = "<group>"; };
 		187019D1204000D300CE1135 /* LeetCode_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode_3.swift; sourceTree = "<group>"; };
 		18A041B62041070500356956 /* LeetCode_04.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode_04.swift; sourceTree = "<group>"; };
+		18ED960D205120C30007F079 /* AddStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStrings.swift; sourceTree = "<group>"; };
+		18ED960F2051343F0007F079 /* CountAndSay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountAndSay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 		1870199A203FEAE300CE1135 /* LeetCodeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				18ED960C2051209C0007F079 /* String */,
+				18ED960B205120870007F079 /* Array */,
 				1870199B203FEAE300CE1135 /* AppDelegate.swift */,
 				1870199D203FEAE300CE1135 /* ViewController.swift */,
 				187019C9203FEF1500CE1135 /* LeetCodeCell.swift */,
@@ -143,6 +149,22 @@
 				18A041B62041070500356956 /* LeetCode_04.swift */,
 			);
 			path = AllCode;
+			sourceTree = "<group>";
+		};
+		18ED960B205120870007F079 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		18ED960C2051209C0007F079 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				18ED960D205120C30007F079 /* AddStrings.swift */,
+				18ED960F2051343F0007F079 /* CountAndSay.swift */,
+			);
+			path = String;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,8 +303,10 @@
 			files = (
 				18A041B72041070500356956 /* LeetCode_04.swift in Sources */,
 				187019D0203FF78D00CE1135 /* TwoSum_1.swift in Sources */,
+				18ED960E205120C30007F079 /* AddStrings.swift in Sources */,
 				187019CA203FEF1500CE1135 /* LeetCodeCell.swift in Sources */,
 				187019D2204000D300CE1135 /* LeetCode_3.swift in Sources */,
+				18ED96102051343F0007F079 /* CountAndSay.swift in Sources */,
 				1870199E203FEAE300CE1135 /* ViewController.swift in Sources */,
 				1870199C203FEAE300CE1135 /* AppDelegate.swift in Sources */,
 			);

@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var tabeView: UITableView!
     
     var dataArray = Array<String>.init(arrayLiteral: "01_wo Sum","03_Longest Substring Without Repeating Characters",
-                                       "04_Median of Two Sorted Arrays")
+                                       "04_Median of Two Sorted Arrays","AddStrings","CountAndSay")
     
     
     override func viewDidLoad() {
@@ -43,6 +43,16 @@ class ViewController: UIViewController {
         case 2:
             let leetCode_4 = LeetCode_04.init()
             let nums = leetCode_4.findMedianSortedArrays([1,6,3], [4,5,8])
+            print("nums = \(nums)")
+            
+        case 3:
+            let leetCode_4 = AddStrings.init()
+            let nums = leetCode_4.addStrings("123456", "11")
+            print("nums = \(nums)")
+            
+        case 4:
+            let leetCode_4 = CountAndSay.init()
+            let nums = leetCode_4.countAndSay(1)
             print("nums = \(nums)")
             
         default:
