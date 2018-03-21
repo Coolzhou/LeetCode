@@ -14,13 +14,6 @@
 		187019A6203FEAE300CE1135 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187019A4203FEAE300CE1135 /* LaunchScreen.storyboard */; };
 		187019B1203FEAE300CE1135 /* LeetCodeDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187019B0203FEAE300CE1135 /* LeetCodeDemoTests.swift */; };
 		187019BC203FEAE300CE1135 /* LeetCodeDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187019BB203FEAE300CE1135 /* LeetCodeDemoUITests.swift */; };
-		187019CA203FEF1500CE1135 /* LeetCodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187019C9203FEF1500CE1135 /* LeetCodeCell.swift */; };
-		187019D0203FF78D00CE1135 /* TwoSum_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187019CF203FF78D00CE1135 /* TwoSum_1.swift */; };
-		187019D2204000D300CE1135 /* LeetCode_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187019D1204000D300CE1135 /* LeetCode_3.swift */; };
-		18A041B72041070500356956 /* LeetCode_04.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A041B62041070500356956 /* LeetCode_04.swift */; };
-		18A250002062326500849D78 /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A24FFF2062326500849D78 /* LongestSubstringWithoutRepeatingCharacters.swift */; };
-		18ED960E205120C30007F079 /* AddStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ED960D205120C30007F079 /* AddStrings.swift */; };
-		18ED96102051343F0007F079 /* CountAndSay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ED960F2051343F0007F079 /* CountAndSay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,13 +47,6 @@
 		187019B7203FEAE300CE1135 /* LeetCodeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetCodeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		187019BB203FEAE300CE1135 /* LeetCodeDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeDemoUITests.swift; sourceTree = "<group>"; };
 		187019BD203FEAE300CE1135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		187019C9203FEF1500CE1135 /* LeetCodeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeCell.swift; sourceTree = "<group>"; };
-		187019CF203FF78D00CE1135 /* TwoSum_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum_1.swift; sourceTree = "<group>"; };
-		187019D1204000D300CE1135 /* LeetCode_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode_3.swift; sourceTree = "<group>"; };
-		18A041B62041070500356956 /* LeetCode_04.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode_04.swift; sourceTree = "<group>"; };
-		18A24FFF2062326500849D78 /* LongestSubstringWithoutRepeatingCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestSubstringWithoutRepeatingCharacters.swift; sourceTree = "<group>"; };
-		18ED960D205120C30007F079 /* AddStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStrings.swift; sourceTree = "<group>"; };
-		18ED960F2051343F0007F079 /* CountAndSay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountAndSay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,12 +97,11 @@
 		1870199A203FEAE300CE1135 /* LeetCodeDemo */ = {
 			isa = PBXGroup;
 			children = (
-				18ED960C2051209C0007F079 /* String */,
-				18ED960B205120870007F079 /* Array */,
+				18A250032062629800849D78 /* Hard */,
+				18A250022062629100849D78 /* Medium */,
+				18A250012062628900849D78 /* Easy */,
 				1870199B203FEAE300CE1135 /* AppDelegate.swift */,
 				1870199D203FEAE300CE1135 /* ViewController.swift */,
-				187019C9203FEF1500CE1135 /* LeetCodeCell.swift */,
-				187019CE203FF76C00CE1135 /* AllCode */,
 				1870199F203FEAE300CE1135 /* Main.storyboard */,
 				187019A2203FEAE300CE1135 /* Assets.xcassets */,
 				187019A4203FEAE300CE1135 /* LaunchScreen.storyboard */,
@@ -143,31 +128,25 @@
 			path = LeetCodeDemoUITests;
 			sourceTree = "<group>";
 		};
-		187019CE203FF76C00CE1135 /* AllCode */ = {
+		18A250012062628900849D78 /* Easy */ = {
 			isa = PBXGroup;
 			children = (
-				187019CF203FF78D00CE1135 /* TwoSum_1.swift */,
-				187019D1204000D300CE1135 /* LeetCode_3.swift */,
-				18A041B62041070500356956 /* LeetCode_04.swift */,
 			);
-			path = AllCode;
+			path = Easy;
 			sourceTree = "<group>";
 		};
-		18ED960B205120870007F079 /* Array */ = {
+		18A250022062629100849D78 /* Medium */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Array;
+			path = Medium;
 			sourceTree = "<group>";
 		};
-		18ED960C2051209C0007F079 /* String */ = {
+		18A250032062629800849D78 /* Hard */ = {
 			isa = PBXGroup;
 			children = (
-				18ED960D205120C30007F079 /* AddStrings.swift */,
-				18ED960F2051343F0007F079 /* CountAndSay.swift */,
-				18A24FFF2062326500849D78 /* LongestSubstringWithoutRepeatingCharacters.swift */,
 			);
-			path = String;
+			path = Hard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,14 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18A041B72041070500356956 /* LeetCode_04.swift in Sources */,
-				187019D0203FF78D00CE1135 /* TwoSum_1.swift in Sources */,
-				18ED960E205120C30007F079 /* AddStrings.swift in Sources */,
-				187019CA203FEF1500CE1135 /* LeetCodeCell.swift in Sources */,
-				187019D2204000D300CE1135 /* LeetCode_3.swift in Sources */,
-				18ED96102051343F0007F079 /* CountAndSay.swift in Sources */,
 				1870199E203FEAE300CE1135 /* ViewController.swift in Sources */,
-				18A250002062326500849D78 /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */,
 				1870199C203FEAE300CE1135 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
