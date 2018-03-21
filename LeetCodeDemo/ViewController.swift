@@ -13,19 +13,18 @@ class ViewController: UIViewController {
     @IBOutlet weak var tabeView: UITableView!
     
     var dataArray = Array<String>.init(arrayLiteral: "01_wo Sum","03_Longest Substring Without Repeating Characters",
-                                       "04_Median of Two Sorted Arrays","AddStrings","CountAndSay")
+                                       "04_Median of Two Sorted Arrays","AddStrings","LongestSubstringWithoutRepeatingCharacters")
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
 
-        
         self.tabeView.register(LeetCodeCell.self, forCellReuseIdentifier: "LeetCode")
         self.tabeView.delegate = self
         self.tabeView.dataSource = self
         self.tabeView.tableFooterView = UIView.init()
-
+        
     }
     
     func runLeetCode(_ index:Int) {
@@ -51,8 +50,8 @@ class ViewController: UIViewController {
             print("nums = \(nums)")
             
         case 4:
-            let leetCode_4 = CountAndSay.init()
-            let nums = leetCode_4.countAndSay(1)
+            let leetCode_4 = LongestSubstringWithoutRepeatingCharacters.init()
+            let nums = leetCode_4.lengthOfLongestSubstring("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~ abcde")
             print("nums = \(nums)")
             
         default:

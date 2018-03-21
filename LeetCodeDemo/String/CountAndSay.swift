@@ -32,29 +32,6 @@ import UIKit
 
 class CountAndSay: NSObject {
     
-    func countAndSay(_ n:Int) -> String {
-        guard n > 0 else {
-            return ""
-        }
-        
-        var res = "1"
-        var temp: String
-        var count: Int
-        var chars:[Character] = Array()
-        var current: Character = Character.init("")
-        
-        for _ in 1..<n {
-            temp = ""
-            count = 1
-            
-            for i in  1 ..< chars.count {
-                
-            }
-            print("222")
-            temp.append(current)
-        }
-        
-        return ""
-    }
+
 
 }
