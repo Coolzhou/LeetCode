@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		184D534B2063814B00A45821 /* Easy_561_Array_Partition_I.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184D534A2063814B00A45821 /* Easy_561_Array_Partition_I.swift */; };
+		186A7B522063940E004F8F5F /* Easy_766_Toeplitz_Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186A7B512063940E004F8F5F /* Easy_766_Toeplitz_Matrix.swift */; };
+		186A7B542063A705004F8F5F /* Easy_566_Reshape_the_Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186A7B532063A705004F8F5F /* Easy_566_Reshape_the_Matrix.swift */; };
 		1870199C203FEAE300CE1135 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1870199B203FEAE300CE1135 /* AppDelegate.swift */; };
 		1870199E203FEAE300CE1135 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1870199D203FEAE300CE1135 /* ViewController.swift */; };
 		187019A1203FEAE300CE1135 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1870199F203FEAE300CE1135 /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		184D534A2063814B00A45821 /* Easy_561_Array_Partition_I.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easy_561_Array_Partition_I.swift; sourceTree = "<group>"; };
+		186A7B512063940E004F8F5F /* Easy_766_Toeplitz_Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easy_766_Toeplitz_Matrix.swift; sourceTree = "<group>"; };
+		186A7B532063A705004F8F5F /* Easy_566_Reshape_the_Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easy_566_Reshape_the_Matrix.swift; sourceTree = "<group>"; };
 		18701998203FEAE300CE1135 /* LeetCodeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCodeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1870199B203FEAE300CE1135 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1870199D203FEAE300CE1135 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +80,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		184D5349206380CA00A45821 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				184D534A2063814B00A45821 /* Easy_561_Array_Partition_I.swift */,
+				186A7B512063940E004F8F5F /* Easy_766_Toeplitz_Matrix.swift */,
+				186A7B532063A705004F8F5F /* Easy_566_Reshape_the_Matrix.swift */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
 		1870198F203FEAE300CE1135 = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +147,7 @@
 		18A250012062628900849D78 /* Easy */ = {
 			isa = PBXGroup;
 			children = (
+				184D5349206380CA00A45821 /* Array */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -283,8 +300,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				184D534B2063814B00A45821 /* Easy_561_Array_Partition_I.swift in Sources */,
 				1870199E203FEAE300CE1135 /* ViewController.swift in Sources */,
+				186A7B542063A705004F8F5F /* Easy_566_Reshape_the_Matrix.swift in Sources */,
 				1870199C203FEAE300CE1135 /* AppDelegate.swift in Sources */,
+				186A7B522063940E004F8F5F /* Easy_766_Toeplitz_Matrix.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
