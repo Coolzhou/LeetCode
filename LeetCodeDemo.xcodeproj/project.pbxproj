@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		184D534B2063814B00A45821 /* Easy_561_Array_Partition_I.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184D534A2063814B00A45821 /* Easy_561_Array_Partition_I.swift */; };
+		1858DF4C2064D9BB00ED966C /* Easy_485_Max_Consecutive_Ones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1858DF4B2064D9BB00ED966C /* Easy_485_Max_Consecutive_Ones.swift */; };
 		186A7B522063940E004F8F5F /* Easy_766_Toeplitz_Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186A7B512063940E004F8F5F /* Easy_766_Toeplitz_Matrix.swift */; };
 		186A7B542063A705004F8F5F /* Easy_566_Reshape_the_Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186A7B532063A705004F8F5F /* Easy_566_Reshape_the_Matrix.swift */; };
 		1870199C203FEAE300CE1135 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1870199B203FEAE300CE1135 /* AppDelegate.swift */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		184D534A2063814B00A45821 /* Easy_561_Array_Partition_I.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easy_561_Array_Partition_I.swift; sourceTree = "<group>"; };
+		1858DF4B2064D9BB00ED966C /* Easy_485_Max_Consecutive_Ones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easy_485_Max_Consecutive_Ones.swift; sourceTree = "<group>"; };
 		186A7B512063940E004F8F5F /* Easy_766_Toeplitz_Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easy_766_Toeplitz_Matrix.swift; sourceTree = "<group>"; };
 		186A7B532063A705004F8F5F /* Easy_566_Reshape_the_Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easy_566_Reshape_the_Matrix.swift; sourceTree = "<group>"; };
 		18701998203FEAE300CE1135 /* LeetCodeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCodeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +88,7 @@
 				184D534A2063814B00A45821 /* Easy_561_Array_Partition_I.swift */,
 				186A7B512063940E004F8F5F /* Easy_766_Toeplitz_Matrix.swift */,
 				186A7B532063A705004F8F5F /* Easy_566_Reshape_the_Matrix.swift */,
+				1858DF4B2064D9BB00ED966C /* Easy_485_Max_Consecutive_Ones.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 			files = (
 				184D534B2063814B00A45821 /* Easy_561_Array_Partition_I.swift in Sources */,
 				1870199E203FEAE300CE1135 /* ViewController.swift in Sources */,
+				1858DF4C2064D9BB00ED966C /* Easy_485_Max_Consecutive_Ones.swift in Sources */,
 				186A7B542063A705004F8F5F /* Easy_566_Reshape_the_Matrix.swift in Sources */,
 				1870199C203FEAE300CE1135 /* AppDelegate.swift in Sources */,
 				186A7B522063940E004F8F5F /* Easy_766_Toeplitz_Matrix.swift in Sources */,
