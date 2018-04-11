@@ -13,39 +13,26 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let num = matrixReshape([[1,2],[3,4]], 2, 2)
+        let num = lengthOfLongestSubstring("abcdabbc")
         print("num=\(num)")
         
     }
     
-    func matrixReshape(_ nums: [[Int]], _ r: Int, _ c: Int) -> [[Int]] {
-        
-        let n = nums.count
-        let m = nums[0].count
-        
-        if n*m != r*c {
-            return nums
-        }
-        
-        var array = Array<Array<Int>>()
-        
-        for i in 0..<r {
-            for j in 0..<c {
-                let k = i*c + j
-                print("k =\(k) k/n=\(k/n) k%n=\(k%n)")
-                array[i][j] = nums[k/n][k%n]
+    func lengthOfLongestSubstring(_ s: String) -> Int {
+        var lastDuplicatePosition = -1
+        var index = 0
+        var maxLength = 0
+        var dict = [Character: Int]()
+        for c in s {
+            if let lastIndex = dict[c], lastIndex > lastDuplicatePosition {
+                lastDuplicatePosition = lastIndex
             }
+            maxLength = max(maxLength, index - lastDuplicatePosition)
+            dict[c] = index
+            index += 1
         }
-        return array
+        return maxLength
     }
-    
-    
-
-    
-  
-
-    
-    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
