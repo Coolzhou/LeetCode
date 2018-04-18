@@ -18,6 +18,7 @@
 		187019A6203FEAE300CE1135 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187019A4203FEAE300CE1135 /* LaunchScreen.storyboard */; };
 		187019B1203FEAE300CE1135 /* LeetCodeDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187019B0203FEAE300CE1135 /* LeetCodeDemoTests.swift */; };
 		187019BC203FEAE300CE1135 /* LeetCodeDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187019BB203FEAE300CE1135 /* LeetCodeDemoUITests.swift */; };
+		CB38139520877EEE00205465 /* Easy_001_TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB38139420877EEE00205465 /* Easy_001_TwoSum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		187019B7203FEAE300CE1135 /* LeetCodeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetCodeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		187019BB203FEAE300CE1135 /* LeetCodeDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeDemoUITests.swift; sourceTree = "<group>"; };
 		187019BD203FEAE300CE1135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB38139420877EEE00205465 /* Easy_001_TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easy_001_TwoSum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				186A7B512063940E004F8F5F /* Easy_766_Toeplitz_Matrix.swift */,
 				186A7B532063A705004F8F5F /* Easy_566_Reshape_the_Matrix.swift */,
 				1858DF4B2064D9BB00ED966C /* Easy_485_Max_Consecutive_Ones.swift */,
+				CB38139420877EEE00205465 /* Easy_001_TwoSum.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -116,8 +119,6 @@
 		1870199A203FEAE300CE1135 /* LeetCodeDemo */ = {
 			isa = PBXGroup;
 			children = (
-				18A250032062629800849D78 /* Hard */,
-				18A250022062629100849D78 /* Medium */,
 				18A250012062628900849D78 /* Easy */,
 				1870199B203FEAE300CE1135 /* AppDelegate.swift */,
 				1870199D203FEAE300CE1135 /* ViewController.swift */,
@@ -153,20 +154,6 @@
 				184D5349206380CA00A45821 /* Array */,
 			);
 			path = Easy;
-			sourceTree = "<group>";
-		};
-		18A250022062629100849D78 /* Medium */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Medium;
-			sourceTree = "<group>";
-		};
-		18A250032062629800849D78 /* Hard */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Hard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,6 +292,7 @@
 			files = (
 				184D534B2063814B00A45821 /* Easy_561_Array_Partition_I.swift in Sources */,
 				1870199E203FEAE300CE1135 /* ViewController.swift in Sources */,
+				CB38139520877EEE00205465 /* Easy_001_TwoSum.swift in Sources */,
 				1858DF4C2064D9BB00ED966C /* Easy_485_Max_Consecutive_Ones.swift in Sources */,
 				186A7B542063A705004F8F5F /* Easy_566_Reshape_the_Matrix.swift in Sources */,
 				1870199C203FEAE300CE1135 /* AppDelegate.swift in Sources */,
